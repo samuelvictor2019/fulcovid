@@ -1,0 +1,10 @@
+Werkzeug
+Flask
+numpy
+gevent
+pillow
+h5py
+tensorflow==1.15.2
+keras==2.3.1
+gunicorn
+setuptools==41.0.0
