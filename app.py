@@ -29,7 +29,7 @@ print('Model loaded. Start serving...')
 # Check https://keras.io/applications/
 #from keras.applications.resnet50 import ResNet50
 #model = ResNet50(weights='imagenet')
-print('Model loaded. Check http://127.0.0.1:3030/covidapp')
+print('Model loaded. Check https://laughing-hugle-73bf1f.netlify.app/')
 
 
 def model_predict(img_path, model):
@@ -84,7 +84,7 @@ def upload():
 
 
 if __name__ == '__main__':
-     app.run(port=3030, debug=True)
+     app.run(port=3306, debug=True)
    
     # Serve the app with gevent
     #http_server = WSGIServer(('', 4006), app)
