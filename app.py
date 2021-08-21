@@ -29,7 +29,7 @@ print('Model loaded. Start serving...')
 # Check https://keras.io/applications/
 #from keras.applications.resnet50 import ResNet50
 #model = ResNet50(weights='imagenet')
-print('Model loaded. Check https://laughing-hugle-73bf1f.netlify.app/')
+print('Model loaded. Check https://')
 
 
 def model_predict(img_path, model):
