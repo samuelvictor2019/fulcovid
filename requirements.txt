@@ -4,7 +4,7 @@ numpy
 gevent
 pillow
 h5py
-tensorflow
+tensorflow-cpu
 keras
 gunicorn
 setuptools
