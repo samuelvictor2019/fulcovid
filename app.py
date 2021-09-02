@@ -76,9 +76,9 @@ def upload():
         #pred_class = decode_predictions(preds, top=1)   # ImageNet Decode
         #result = str(pred_class[0][0][1])               # Convert to string
         if pred_class[0]== [1]:
-            result = ("Preliminary diagnosis suggests Non-Covid presentation with Score:"+str(preds[0][0]))
+            result = ("The diagnosis of this image suggests Non-Covid presentation with Score:"+str(preds[0][0]))
         elif pred_class[0]== [0]:
-            result = ("Preliminary diagnosis suggests Covid presentation with Score:"+str(preds[0][1]))
+            result = ("The diagnosis of this image suggests Covid presentation with Score:"+str(preds[0][1]))
         return result
     return result
 
